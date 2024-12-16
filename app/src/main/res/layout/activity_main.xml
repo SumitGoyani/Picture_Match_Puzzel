@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="#E3F4F3"
+    tools:context=".Activities.MainActivity">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tool_Bar"
+        android:background="@color/teal_700">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Mode"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20sdp"></TextView>
+    </Toolbar>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_480sdp"
+        android:orientation="vertical"
+
+android:layout_marginTop="@dimen/_40sdp"
+        android:background="@drawable/main"
+        android:gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="@null"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/border_layaout"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NO TIME LIMIT"
+            android:backgroundTint="#2C635E"
+            android:layout_margin="@dimen/_10sdp"
+            android:id="@+id/no_time"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NORMAL"
+            android:backgroundTint="#2C635E"
+            android:layout_margin="@dimen/_10sdp"
+            android:id="@+id/normal_button"
+            />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HARD"
+        android:backgroundTint="#2C635E"
+        android:layout_margin="@dimen/_10sdp"
+        android:id="@+id/hard_button"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:backgroundTint="@null"
+        android:background="@drawable/border_layaout"
+
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REMOVE ADS"
+            android:layout_margin="@dimen/_10sdp"
+            android:backgroundTint="#2C635E"
+            android:id="@+id/remove_add"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:backgroundTint="@null"
+        android:orientation="horizontal"
+        android:background="@drawable/border_layaout"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHARE"
+            android:backgroundTint="#2C635E"
+            android:layout_margin="@dimen/_10sdp"
+            android:id="@+id/share_button"
+            />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MORE GAME"
+        android:backgroundTint="#2C635E"
+        android:layout_margin="@dimen/_10sdp"
+        android:id="@+id/more_game_button"
+        />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

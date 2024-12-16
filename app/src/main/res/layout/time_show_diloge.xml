@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/_250sdp"
+
+
+    android:layout_height="@dimen/_150sdp"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Time:"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:background="#ADE3C8"
+        android:id="@+id/time_give_txt"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:textSize="@dimen/_10sdp"
+        android:textColor="@color/black"
+        android:id="@+id/tips_txt"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO"
+        android:backgroundTint="@color/black"
+        android:id="@+id/go_button"
+        ></Button>
+    </LinearLayout>
+
